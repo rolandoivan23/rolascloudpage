@@ -11,10 +11,19 @@ body {
     background-color: ghostwhite;
     margin: auto;
     margin-top: 500px;
+    text-align: justify;
+}
+
+.centrado{
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #jumbotron{
     margin-top: 80px;
+    text-align: justify;
 }
 
 .web-hosting{
