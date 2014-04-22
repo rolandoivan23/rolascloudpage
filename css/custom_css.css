@@ -1,0 +1,43 @@
+body {
+    background: url('../img/backgroud.jpeg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 20px;
+}
+
+#principal_container{
+    background-color: ghostwhite;
+    margin: auto;
+    margin-top: 500px;
+}
+
+#jumbotron{
+    margin-top: 80px;
+}
+
+.web-hosting{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.encabezado {
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background-color: #c9e2b3;
+    height: 75px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.encabezado_elem{
+    margin-top: 10px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+.encabezado_elem:hover{
+    background-color: #cccccc;
+    cursor: pointer;
+}
