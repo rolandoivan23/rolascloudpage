@@ -23,23 +23,7 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
         <link rel='stylesheet' href="./css/slider_multiple.css" />
-        <style>
-            body {
-                background: url('img/backgroud.jpeg') no-repeat center center fixed;
-                -webkit-background-size: cover;
-                -moz-background-size: cover;
-                -o-background-size: cover;
-                background-size: cover;
-                padding-top: 20px;
-            }
-
-            #principal_container{
-                background-color: ghostwhite;
-                margin: auto;
-                margin-top: 500px;
-            }
-
-        </style>
+        <link rel="stylesheet" href="css/custom_css.css">
     </head>
 
     <body>
@@ -71,7 +55,7 @@
 
         <!-- Main jumbotron for a primary marketing message or call to action -->
 
-        <div id="jumbotron" class="jumbotron" style="margin-top: 80px;">
+        <div id="jumbotron" class="jumbotron">
             <h1>Servicios Informáticos Profesionales</h1>
 
             <p>Rolas Cloud es una empresa dedicada a brindar servicios informáticos altamente profesionales, tales cómo
@@ -186,61 +170,114 @@
 
         <div id="principal_container" class="container">
             <!-- Example row of columns -->
-                <div class="row" style="margin-bottom: 50px;">
-                    <div id="web_hosting" class="col-md-12">
-                        <div class="col-md-6">
-                            <img src="img/web_hosting.jpeg">
-                        </div>
-                        <div class="col-md-6">
-                            <a name="nombre_del_marcador1" ></a>
-                            <h2>Web Hosting</h2><hr>
-                            <p>
-                                Si lo que quieres es poner tu propio sitio de internet nosotros podemos alojarlo en
-                                nuestros servidores por el precio más bajo, además de la manera más eficiente.
-                            </p>
-                            <a class="btn btn-info" href="#">Arrnca tu sitio...</a>
-                        </div>
+            <div class="row" style="margin-bottom: 50px;">
+                <div id="aplicaciones_web" class="col-md-12">
+                    <div class="col-md-6">
+                        <a name="nombre_del_marcador2"></a>
+                        <h2>Aplicaciones web</h2><hr>
+                        <p>
+                            Necesitas que alguien cree tu página web???, nosotros podemos ayudarte, te ofrecemos
+                            propuestas de diferentes diseños. Tu página podrá estar lista en menos de lo que
+                            esperas....
+                        </p>
+                        <a class="btn btn-info" href="#">Crea tu pagina...</a>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="img/web_applications.jpeg">
                     </div>
                 </div>
-                <div class="row" style="margin-bottom: 50px;">
-                    <div id="aplicaciones_web" class="col-md-12">
-                        <div class="col-md-6">
-                            <a name="nombre_del_marcador2"></a>
-                            <h2>Aplicaciones web</h2><hr>
-                            <p>
-                                Necesitas que alguien cree tu página web???, nosotros podemos ayudarte, te ofrecemos
-                                propuestas de diferentes diseños. Tu página podrá estar lista en menos de lo que
-                                esperas....
-                            </p>
-                            <a class="btn btn-info" href="#">Crea tu pagina...</a>
-                        </div>
-                        <div class="col-md-6">
-                            <img src="img/web_applications.jpeg">
-                        </div>
+            </div>
+            <div class="row" style="margin-bottom: 50px;">
+                <div id="web_hosting" class="col-md-12">
+                    <div class="col-md-6">
+                        <img src="img/web_hosting.jpeg">
+                    </div>
+                    <div class="col-md-6">
+                        <a name="nombre_del_marcador1" ></a>
+                        <h2>Web Hosting</h2><hr>
+                        <p>
+                            Si lo que quieres es poner tu propio sitio de internet nosotros podemos alojarlo en
+                            nuestros servidores por el precio más bajo, además de la manera más eficiente.
+                        </p>
+                        <a class="btn btn-info" href="web_hosting.html">Arranca tu sitio...</a>
                     </div>
                 </div>
-                <div class="row" style="margin-bottom: 0px;">
-                    <div id="proyectos_especiales" class="col-md-12">
-                        <div class="col-md-6">
-                            <img src="img/proyectos_especiales.jpg" style="max-height: 50px; max-width: 50px;">
-                        </div>
-                        <div class="col-md-6">
-                            <a name="nombre_del_marcador3"></a>
-                            <h2>Proyectos Especiales</h2><hr>
-                            <p>
-                                Alguna idea en mente pero requieres un poco de ayuda, aquí encontraras a las
-                                personas indicadas para poner en marcha tu proyecto.
-                            </p>
-                            <a class="btn btn-info" href="#">Emprende tu proyecto...</a>
-                        </div>
+            </div>
+            <div class="row" style="margin-bottom: 50px;">
+                <div id="repositorios_git" class="col-md-12">
+                    <div class="col-md-6">
+                        <a name="nombre_del_marcador4"></a>
+                        <h2>Repositorios de Git</h2><hr>
+                        <p>
+                            Quieres poner tus proyectos bajo un control de versiones y quieres que
+                            sea totalmente privado, que nadie pueda accesar al código de tu proyecto
+                            o aplicacion. Con nosotros encuentras la mejor solucion.
+                        </p>
+                        <a class="btn btn-info" href="#">Organiza tu código...</a>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="img/git.jpeg" style="max-width: inherit; max-height: inherit;">
                     </div>
                 </div>
+            </div>
 
-                <hr>
+            <div class="row" style="margin-bottom: 50px;">
+                <div id="programacion_plds" class="col-md-12">
+                    <div class="col-md-6">
+                        <img src="img/plds.jpeg" >
+                    </div>
+                    <div class="col-md-6">
+                        <a name="nombre_del_marcador5"></a>
+                        <h2>Programación de PLDs</h2><hr>
+                        <p>
+                            Mediante la programación de dispositivos lógicos programables se puede
+                            llegar a gran variedad de funcionalidades con la ventaja de usar un mismo
+                            dispositivo físico.
+                        </p>
+                        <a class="btn btn-info" href="#">Más sobre PLDs</a>
+                    </div>
+                </div>
+            </div>
 
-                <footer>
-                    <p>&copy; RolasCloud all rights reserver 2014</p>
-                </footer>
+            <div class="row" style="margin-bottom: 50px;">
+                <div id="programacion_plcs" class="col-md-12">
+                    <div class="col-md-6">
+                        <a name="nombre_del_marcador6"></a>
+                        <h2>Programación de PLCs</h2><hr>
+                        <p>
+                            Te encuentras en un entorno industrial y necesitas automatizar alguno
+                            de tus procesos, con nosotros encuentras tu mejor opcion, ya que nos basamos
+                            en las mejores practicas para la automatizacion, talez como la programacion
+                            basada en automatas.
+                        </p>
+                        <a class="btn btn-info" href="#">Automatiza tus procesos...</a>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="img/plc.jpg" style="max-height: 350px; max-width: 350px;">
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-bottom: 50px;">
+                <div id="proyectos_especiales" class="col-md-12">
+                    <div class="col-md-6">
+                        <img src="img/proyectos_especiales.jpg" style="max-height: 300px; max-width: 300px;">
+                    </div>
+                    <div class="col-md-6">
+                        <a name="nombre_del_marcador3"></a>
+                        <h2>Proyectos Especiales</h2><hr>
+                        <p>
+                            Alguna idea en mente pero requieres un poco de ayuda, aquí encontraras a las
+                            personas indicadas para poner en marcha tu proyecto.
+                        </p>
+                        <a class="btn btn-info" href="#">Emprende tu proyecto...</a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+
+            <footer>
+                <p style="text-align: center">&copy; RolasCloud all rights reserver 2014</p>
+            </footer>
         </div> <!-- /container -->
 
         <!-- Bootstrap core JavaScript
@@ -253,11 +290,8 @@
             jQuery(document).ready(function(e) {
                 jQuery('#my_carousel_ct').tsSlider({
                     thumbs:'bottom',
-                    width:'600',
                     showText: true,
                     autoplay: 5000,
-                    imgWidth: 100,
-                    imgHeight: 100,
                     imgMarginTop: 0,
                     imgMarginLeft: 0,
                     squared: true ,
