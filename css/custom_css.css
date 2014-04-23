@@ -26,6 +26,18 @@ body {
     text-align: justify;
 }
 
+.jumbotron_shadow{
+    -webkit-box-shadow: 20px 0 100px 10px #3D7D4A;
+    box-shadow: 20px 0 100px 10px #3D7D4A;
+}
+
+.h1_shadow{
+    -webkit-box-shadow:inset 5px 5px 10px 5px #466ABD;
+    box-shadow:inset 5px 5px 10px 5px #466ABD;
+    text-align: center;
+    -webkit-border-radius: 15px 15px 15px 15px;
+    border-radius: 15px 15px 15px 15px;
+}
 .web-hosting{
     font-size: 20px;
     text-align: justify;
