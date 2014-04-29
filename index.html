@@ -29,17 +29,33 @@
     <body>
 
         <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-            <div class="container">
+                <div class="col-md-2">
+                    <strong><a><span class="navbar-brand" >RolasCloud</span></a></strong>
+                    <img src="img/logo.jpeg" style="max-width: 130px; max-height: 100px;">
+                </div>
                 <div class="navbar-header">
+                    <ul class=" nav nav-pills">
+                        <li><a href="#nombre_del_marcador1">Aplicaciones Web</a></li>
+                        <li><a href="#nombre_del_marcador2">Alojamiento Web</a></li>
+                        <li><a href="#nombre_del_marcador3">Repositorios de Git</a></li>
+                        <li><a href="#nombre_del_marcador4">Programación de PLDs</a></li>
+                        <li><a href="#nombre_del_marcador5">Programación de PLCs</a></li>
+                        <li><a href="#nombre_del_marcador6">Proyectos Especiales</a></li>
+
+                    </ul>
+
+                    <!--Este boton es para cuando la pantalla es demasiado pequeña aparezca el toggle
+                        para poder iniciar sesion. NO BORRAR-->
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <strong><a class="navbar-brand" href="#">RolasCloud</a></strong>
+
                 </div>
-                <div class="navbar-collapse collapse">
+
+                <div class="navbar-collapse collapse" >
                     <form class="navbar-form navbar-right" role="form">
                         <div class="form-group">
                             <input type="text" placeholder="Email" class="form-control"/>
@@ -50,7 +66,8 @@
                         <button type="submit" class="btn btn-success">Iniciar Sesión</button>
                     </form>
                 </div><!--/.navbar-collapse -->
-            </div>
+
+
         </div>
 
         <!-- Main jumbotron for a primary marketing message or call to action -->
@@ -67,13 +84,13 @@
             </div>
             <div class="col-md-6 ">
                 <p>En RolasCloud tratamos de ver y de entender a las computadoras cómo un conjunto
-                de niveles de abstraccón, para de esta manera poder obtener el mejor benefición de
+                de niveles de abstracción, para de esta manera poder obtener el mejor benefición de
                 estas máquinas. Con esto poder satisfacer de manera oportuna los distintos requerimientos
                 que la sociedad, las empresas y los individuos demanden.</p>
             </div>
             <div class="col-md-12 ">
                 <p>
-                    Te invitamos a que explores nuestro sitio y pruebes los diferentes servicios que
+                    Te invitamos a que explores nuestra plataforma y pruebes los diferentes servicios que
                     te ofrecemos en esta plataforma, para que puedes crecer y desarrollarte atravez del
                     conocimiento que intentamos transmitir. Con esto todos salen ganando, ya que tu también
                     tu puedes compartir los recursos que desees y ofrecer tus servicios.
@@ -84,18 +101,18 @@
 
 
         <div id="video_slider_container" class="col-md-12">
-            <div class="col-md-6" ><center>
-                <video controls style="margin:auto;">
+
+                <video class="center-block col-md-6" controls>
                     <source src=http://techslides.com/demos/sample-videos/small.webm type=video/webm>
                     <source src=http://techslides.com/demos/sample-videos/small.ogv type=video/ogg>
                     <source src=http://techslides.com/demos/sample-videos/small.mp4 type=video/mp4>
                     <source src=http://techslides.com/demos/sample-videos/small.3gp type=video/3gp>
                     <source src='videos/prueba.mp4' type='video/mp4'>
                     Tu navegador no soporta el tag de video
-                </video></center>
-            </div>
+                </video>
+
             <div class="col-md-6" >
-                <div id='my_carousel_ct' style="margin:auto;" class='carousel-container'>
+                <div id='my_carousel_ct'  class='carousel-container center-block'>
                     <div id="my_carousel_1" class="carousel slide">
 
                         <!-- Carousel items -->
@@ -182,11 +199,11 @@
 
 
         <div id="principal_container" class="container">
-            <!-- Example row of columns -->
+
+            <a name="nombre_del_marcador1"></a>
             <div class="row" style="margin-bottom: 50px;">
                 <div id="aplicaciones_web" class="col-md-12">
                     <div class="col-md-6">
-                        <a name="nombre_del_marcador2"></a>
                         <h2>Aplicaciones web</h2><hr>
                         <p>
                             Necesitas que alguien cree tu página web???, nosotros podemos ayudarte, te ofrecemos
@@ -200,13 +217,14 @@
                     </div>
                 </div>
             </div>
-            <div class="row" style="margin-bottom: 50px;">
+            <a name="nombre_del_marcador2"></a>
+            <div class="row">
                 <div id="web_hosting" class="col-md-12">
                     <div class="col-md-6 center-block">
                         <img class="center-block" src="img/web_hosting.jpeg">
                     </div>
                     <div class="col-md-6">
-                        <a name="nombre_del_marcador1" ></a>
+
                         <h2>Web Hosting</h2><hr>
                         <p>
                             Si lo que quieres es poner tu propio sitio de internet nosotros podemos alojarlo en
@@ -219,7 +237,7 @@
             <div class="row" style="margin-bottom: 50px;">
                 <div id="repositorios_git" class="col-md-12">
                     <div class="col-md-6">
-                        <a name="nombre_del_marcador4"></a>
+                        <a name="nombre_del_marcador3"></a>
                         <h2>Repositorios de Git</h2><hr>
                         <p>
                             Quieres poner tus proyectos bajo un control de versiones y quieres que
@@ -240,7 +258,7 @@
                         <img class="center-block" src="img/plds.jpeg" >
                     </div>
                     <div class="col-md-6">
-                        <a name="nombre_del_marcador5"></a>
+                        <a name="nombre_del_marcador4"></a>
                         <h2>Programación de PLDs</h2><hr>
                         <p>
                             Mediante la programación de dispositivos lógicos programables se puede
@@ -255,7 +273,7 @@
             <div class="row" style="margin-bottom: 50px;">
                 <div id="programacion_plcs" class="col-md-12">
                     <div class="col-md-6">
-                        <a name="nombre_del_marcador6"></a>
+                        <a name="nombre_del_marcador5"></a>
                         <h2>Programación de PLCs</h2><hr>
                         <p>
                             Te encuentras en un entorno industrial y necesitas automatizar alguno
@@ -276,7 +294,7 @@
                         <img class="center-block" src="img/proyectos_especiales.jpg" style="max-height: 300px; max-width: 300px;">
                     </div>
                     <div class="col-md-6">
-                        <a name="nombre_del_marcador3"></a>
+                        <a name="nombre_del_marcador6"></a>
                         <h2>Proyectos Especiales</h2><hr>
                         <p>
                             Alguna idea en mente pero requieres un poco de ayuda, aquí encontraras a las
