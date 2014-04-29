@@ -24,6 +24,7 @@ body {
 #jumbotron{
     margin-top: 80px;
     text-align: justify;
+    overflow: hidden;
 }
 
 .jumbotron_shadow{
@@ -32,8 +33,8 @@ body {
 }
 
 .h1_shadow{
-    -webkit-box-shadow:inset 5px 5px 10px 5px #466ABD;
-    box-shadow:inset 5px 5px 10px 5px #466ABD;
+    -webkit-box-shadow:inset 5px 5px 10px 5px #3D7D4A;
+    box-shadow:inset 5px 5px 10px 5px #3D7D4A;
     text-align: center;
     -webkit-border-radius: 15px 15px 15px 15px;
     border-radius: 15px 15px 15px 15px;
@@ -61,4 +62,9 @@ body {
 .encabezado_elem:hover{
     background-color: #cccccc;
     cursor: pointer;
+}
+
+.borde {
+    border: 1px solid #ffff00;
+
 }
